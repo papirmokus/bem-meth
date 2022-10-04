@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+}
+
+.container_content-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.avatar {
+  border-radius: 100vh;
+  background-color: #f44336;
+  font-size: 1.4rem;
+  min-width: 36px;
+  width: 36px;
+  min-height: 36px;
+  height: 36px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  border-radius: 6px;
+  min-width: 200px;
+}
+
+.card_bordered {
+  border: 1px solid rgba(40, 40, 200, 0.3);
+}
+
+.card_shadow {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.card__header {
+  display: flex;
+  padding: 16px;
+}
+
+.card__avatar {
+  margin-right: 16px;
+}
+
+.button {
+  outline: none;
+  border: 1px solid rgb(181, 236, 255);
+  background-color: rgb(240, 248, 255);
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:hover {
+  background-color: rgb(179, 179, 179);
+}
+
+.button_icon {
+  color: rgb(150, 150, 150);
+  border-radius: 50%;
+  padding: 8px;
+  background-color: transparent;
+  border: none;
+}
+
+.button_icon:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+.card__timestamp {
+  color: rgb(100, 100, 100);
+  font-size: 0.95rem;
+}
+
+.card__content {
+  max-width: fit-content;
+  padding: 16px;
+}
+
+.card__footer {
+  display: flex;
+  padding: 16px;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+.ml-2 {
+  margin-left: 16px;
+}
+
+.hover-color_blue:hover {
+  color: rgb(84, 84, 255);
+}
+
+.hover-color_red:hover {
+  color: rgb(251, 70, 70);
+}
+
+.hover-color_black:hover {
+  color: black;
+}

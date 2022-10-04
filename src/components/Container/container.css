@@ -1,0 +1,14 @@
+.container {
+  position: relative;
+  max-width: 1200px;
+  margin-inline: auto;
+  padding: 24px;
+  height: 100%;
+}
+
+.container_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5rem;
+  grid-auto-rows: minmax(min-content, max-content);
+}

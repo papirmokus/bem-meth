@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./style.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recipe card BEM</title>
+</head>
+<body>
+  <div class="container container_content-center">
+
+    <div class="card card_shadow">
+      <div class="card__header">
+        <div class="avatar card__avatar">R</div>
+        <div>
+          <div class="card__title">Shrimp and Chorizo Paella</div>
+          <div class="card__timestamp">September 14, 2020</div>
+        </div>
+        <div class="ml-auto">
+           <button class="button button_icon hover-color_black ml-2"><i class="fa-solid fa-ellipsis"></i></button>
+        </div>
+      </div>
+      <div class="card__image">
+        <img src="https://mui.com/static/images/cards/paella.jpg" alt="Shrimp and Chorizo Paella" />
+      </div>
+      <div class="card__content">
+        This impressive paella is a perfect party dish and a fun meal to cook together with your guests. Add 1 cup of frozen peas along with the mussels, if you like.
+      </div>
+      <div class="card__footer">
+        <button class="button button_icon hover-color_red">
+          <i class="fa-solid fa-heart"></i>
+        </button>
+        <button class="button button_icon hover-color_blue">
+          <i class="fa-solid fa-share"></i>
+        </button>
+        <button class="button button_icon hover-color_black ml-auto">
+          <i class="fa-solid fa-chevron-down"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
